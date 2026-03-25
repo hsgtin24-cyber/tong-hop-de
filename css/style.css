@@ -180,15 +180,32 @@ a { text-decoration: none; color: inherit; }
     background-color: transparent;
 }
 /* Responsive: Trên mobile thì không kéo được, xếp chồng lên nhau */
+/* ==========================================================
+   RESPONSIVE (ĐIỆN THOẠI VÀ MÁY TÍNH BẢNG)
+   ========================================================== */
 @media (max-width: 768px) {
-    .detail-layout {
-        flex-direction: column;
-        height: auto;
+    /* Ép container chuyển sang xếp dọc và cho phép cuộn toàn trang */
+    .container.detail-layout {
+        flex-direction: column; 
+        height: auto; /* Bỏ giới hạn chiều cao tổng */
+        overflow-y: visible;
     }
-    .resizer {
-        display: none; /* Ẩn thanh kéo trên điện thoại */
+
+    /* Định dạng lại khung Đề bài và Lời giải */
+    .pdf-container, 
+    .solution-container {
+        /* Dùng !important để vô hiệu hóa chiều rộng do file JS tự sinh ra */
+        width: 100% !important; 
+        
+        /* Cấp cho mỗi khung 1 chiều cao cố định để không bị xẹp (ví dụ 60vh = 60% chiều cao màn hình) */
+        height: 60vh; 
+        min-height: 400px; 
+        
+        padding: 10px; /* Thu nhỏ lề lại cho gọn trên mobile */
     }
-    #left-column, #right-column {
-        width: 100% !important;
+
+    /* Ẩn thanh kéo ngang vì trên điện thoại đã xếp chồng dọc */
+    .gutter.gutter-horizontal {
+        display: none;
     }
 }
