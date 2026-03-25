@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bai1-olympic10",
+    "ten": "Đếm học sinh xuất sắc",
+    "nam": 2025,
+    "kythi": "Olympic 10, 11",
+    "dokho": "Dễ",
+    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
+    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
+    "loigiai": "loigiai/bai1.html"
+  },
+  {
+    "id": "bai2-tht",
+    "ten": "Robot nhặt rác",
+    "nam": 2024,
+    "kythi": "Tin học trẻ",
+    "dokho": "Trung bình",
+    "mota": "Thuật toán tìm đường đi ngắn nhất trên lưới tọa độ.",
+    "file": "de/bai2.pdf",
+    "loigiai": "loigiai/bai2.html"
+  },
+  {
+    "id": "bai3-hsg12",
+    "ten": "Mạng lưới giao thông",
+    "nam": 2024,
+    "kythi": "Học sinh giỏi 12",
+    "dokho": "Khó",
+    "mota": "Ứng dụng thuật toán Dijkstra để tìm đường đi ngắn nhất.",
+    "file": "de/bai3.pdf",
+    "loigiai": "loigiai/bai3.html"
+  }
+]
