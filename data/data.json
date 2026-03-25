@@ -7,7 +7,11 @@
     "dokho": "Dễ",
     "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
     "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
-    "loigiai": "loigiai/bai1.html"
+    "loigiai": [
+      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
+      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
+      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
+    ]
   },
   {
     "id": "bai2-tht",
