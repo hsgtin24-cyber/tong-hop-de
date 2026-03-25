@@ -14,14 +14,60 @@
     ]
   },
   {
-    "id": "bai2-tht",
-    "ten": "Robot nhặt rác",
-    "nam": 2024,
-    "kythi": "Tin học trẻ",
-    "dokho": "Trung bình",
-    "mota": "Thuật toán tìm đường đi ngắn nhất trên lưới tọa độ.",
-    "file": "de/bai2.pdf",
-    "loigiai": "loigiai/bai2.html"
+    "id": "bai1-olympic10",
+    "ten": "Đếm học sinh xuất sắc",
+    "nam": 2025,
+    "kythi": "Olympic 10, 11",
+    "dokho": "Dễ",
+    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
+    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
+    "loigiai": [
+      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
+      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
+      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
+    ]
+  },
+  {
+    "id": "bai1-olympic10",
+    "ten": "Đếm học sinh xuất sắc",
+    "nam": 2025,
+    "kythi": "Olympic 10, 11",
+    "dokho": "Dễ",
+    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
+    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
+    "loigiai": [
+      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
+      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
+      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
+    ]
+  },
+  {
+    "id": "bai1-olympic10",
+    "ten": "Đếm học sinh xuất sắc",
+    "nam": 2025,
+    "kythi": "Olympic 10, 11",
+    "dokho": "Dễ",
+    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
+    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
+    "loigiai": [
+      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
+      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
+      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
+    ]
+  },
+  {
+    "id": "bai1-olympic10",
+    "ten": "Đếm học sinh xuất sắc",
+    "nam": 2025,
+    "kythi": "Olympic 10, 11",
+    "dokho": "Dễ",
+    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
+    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
+    "loigiai": [
+      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
+      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
+      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
+    ]
   },
   {
     "id": "bai3-hsg12",
