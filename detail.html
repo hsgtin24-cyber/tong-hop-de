@@ -36,13 +36,21 @@
         <button id="theme-toggle" class="btn-icon"><i class="fa-solid fa-moon"></i></button>
     </nav>
 
-   <div class="container detail-layout" id="resizable-container"> <div class="pdf-container" id="left-panel"> <h1 style="background: #e1e1e1; height: 100vh;">KHUNG ĐỀ PDF (DEMO)</h1>
+   <div class="container detail-layout" id="resizable-container">
+    <div class="pdf-container" id="left-panel">
+        <h3><i class="fa-solid fa-file-pdf"></i> Đề bài</h3>
+        <iframe id="pdf-viewer" src="" style="border: none; border-radius: 8px;"></iframe>
     </div>
 
-    <div class="guttergutter-horizontal" id="drag-bar"></div>
+    <div class="gutter gutter-horizontal" id="drag-bar"></div>
 
-    <div id="solution-content" class="right-panel" id="right-panel"> <h1 style="background: #ddd; height: 100vh;">KHUNG LỜI GIẢI (DEMO)</h1>
+    <div class="solution-container" id="right-panel">
+        <h3><i class="fa-solid fa-lightbulb"></i> Hướng dẫn giải</h3>
+        <div id="solution-content">
+            <div class="loader">Đang tải lời giải...</div>
+        </div>
     </div>
+</div>
     
 </div>
 
