@@ -37,7 +37,11 @@ a { text-decoration: none; color: inherit; }
 .back-link:hover { color: var(--primary-color); }
 
 /* Layouts */
-.container { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+.container { 
+    max-width: 100%; /* Cho phép mở rộng toàn bộ màn hình thay vì bị giới hạn ở 1200px */
+    margin: 2rem auto; 
+    padding: 0 2rem; /* Cách lề trái/phải 1 khoảng bằng đúng với lề của thanh Navbar */
+}
 .layout { 
     display: flex; 
     flex-direction: row; 
