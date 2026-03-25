@@ -58,45 +58,66 @@ a { text-decoration: none; color: inherit; }
 .card-btn { background: var(--primary-color); color: white; text-align: center; padding: 0.5rem; border-radius: 4px; font-weight: 500; }
 
 /* Detail Page Layout */
-.detail-layout {
-    display: flex; /* Chuyển từ grid sang flex */
-    gap: 0;        /* Xóa gap cũ vì đã có thanh kéo */
-    height: 85vh;  /* Cố định chiều cao để scroll nội dung bên trong */
-    overflow: hidden;
+/* ==========================================================
+   CSS cho thanh kéo Resizable Layout
+   ========================================================== */
+
+/* 1. Sửa lại container, chuyển sang Flexbox */
+.container.detail-layout {
+    display: flex; /* Bắt buộc dùng Flex */
+    width: 100%;
+    height: 100vh; /* Thiết lập chiều cao để các panel tự cuộn bên trong */
+    overflow: hidden; /* Ngăn container chính xuất hiện thanh cuộn */
+    
+    /* Giữ nguyên phần sát lề từ câu trước của bạn */
+    max-width: 100%;
+    padding: 0;
 }
 
-#left-column {
-    width: 30%;    /* Độ rộng mặc định ban đầu */
+/* 2. Định dạng cột trái */
+.pdf-container {
+    width: 50%; /* Tỷ lệ mặc định 50/50 */
+    min-width: 200px; /* Chiều rộng tối thiểu để không bị bóp nghẹt */
+    height: 100%;
+    overflow-y: auto; /* Tự xuất hiện thanh cuộn khi nội dung dài */
+}
+
+/* 3. Định dạng cột phải */
+#solution-content {
+    flex: 1; /* Chiếm toàn bộ không gian còn lại */
     min-width: 200px;
+    height: 100%;
     overflow-y: auto;
 }
 
-#right-column {
-    flex: 1;       /* Chiếm toàn bộ phần còn lại */
-    min-width: 300px;
-    overflow-y: auto;
+/* 4. Định dạng thanh kéo */
+.gutter.gutter-horizontal {
+    width: 10px; /* Độ rộng của thanh kéo */
+    background-color: #f0f0f0; /* Màu nền */
+    cursor: col-resize; /* Đổi con trỏ chuột sang dạng kéo ngang */
+    flex-shrink: 0; /* Không cho thanh kéo bị bóp nhỏ */
+    transition: background-color 0.2s;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    position: relative;
 }
 
-/* Định dạng thanh kéo */
-.resizer {
-    width: 10px;
-    cursor: col-resize;
-    background: var(--border-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: background 0.2s;
+/* Hiệu ứng khi hover vào thanh kéo */
+.gutter.gutter-horizontal:hover {
+    background-color: #007bff; /* Đổi sang màu xanh khi rê chuột */
 }
 
-.resizer:hover, .resizer:active {
-    background: var(--primary-color);
-}
-
-/* Thêm biểu tượng 3 chấm nhỏ trên thanh kéo cho đẹp */
-.resizer::after {
-    content: "⋮";
-    color: var(--text-muted);
-    font-weight: bold;
+/* Thêm 3 vạch nhỏ ở giữa thanh kéo cho trực quan */
+.gutter.gutter-horizontal::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 20px;
+    background-color: #ccc;
+    box-shadow: 4px 0 0 #ccc, -4px 0 0 #ccc; /* Tạo thêm 2 vạch bên cạnh */
 }
 
 /* Responsive: Trên mobile thì không kéo được, xếp chồng lên nhau */
