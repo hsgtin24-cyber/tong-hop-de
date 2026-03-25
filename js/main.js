@@ -111,25 +111,24 @@ if (examDetailContainer) {
                     pdfViewer.src = `${exam.file}#view=FitH`;
 
                     // Lấy nội dung lời giải HTML bằng Fetch API
-                    // Lấy nội dung lời giải HTML bằng Fetch API
-                    fetch(exam.loigiai)
-                        .then(res => res.text())
-                        .then(html => {
-                            document.getElementById('solution-content').innerHTML = html;
-                            
-                            // 1. Gọi PrismJS render highlight code (đã có)
-                            if (window.Prism) {
-                                Prism.highlightAll();
-                            }
-                            
-                            // 2. MỚI THÊM: Gọi MathJax render công thức toán học
-                            if (window.MathJax) {
-                                MathJax.typesetPromise();
-                            }
-                        })
-                        .catch(err => {
-                            document.getElementById('solution-content').innerHTML = '<p style="color:red">Không thể tải file hướng dẫn giải.</p>';
-                        });
+                    // THAY BẰNG ĐOẠN NÀY
+                    if (exam.loigiai) {
+                        // Xóa loader
+                        const solutionContainer = document.getElementById('solution-content');
+                        solutionContainer.innerHTML = ''; 
+                    
+                        // Tạo iframe để nhúng file lời giải (bai1.html)
+                        const solutionIframe = document.createElement('iframe');
+                        solutionIframe.src = exam.loigiai;
+                        solutionIframe.style.width = '100%';
+                        solutionIframe.style.height = '800px'; // Bạn có thể tăng/giảm chiều cao này cho phù hợp
+                        solutionIframe.style.border = 'none';
+                        solutionIframe.style.borderRadius = '8px';
+                    
+                        solutionContainer.appendChild(solutionIframe);
+                    } else {
+                        document.getElementById('solution-content').innerHTML = '<p style="color:red">Chưa có file hướng dẫn giải.</p>';
+                    }
                 } else {
                     document.getElementById('detail-title').innerText = "Không tìm thấy đề thi!";
                 }
