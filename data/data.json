@@ -22,9 +22,9 @@
     "mota": "Đề thi Olympic Thành phố Hồ Chí Minh dành cho học sinh lớp 11 năm học 2024 – 2025.",
     "file": "de/2024-2025-oly11.pdf",
     "loigiai": [
-      { "ten": "Bài 1", "file": "loigiai/2024-2025-oly11/bai1.html" },
-      { "ten": "Bài 2", "file": "loigiai/2024-2025-oly11/bai2.html" },
-      { "ten": "Bài 3", "file": "loigiai/2024-2025-oly11/bai3.html" }
+      { "ten": "Bài 1. Nghe nhạc", "file": "loigiai/2024-2025-oly11/bai1.html" },
+      { "ten": "Bài 2. Học toán", "file": "loigiai/2024-2025-oly11/bai2.html" },
+      { "ten": "Bài 3. Robot", "file": "loigiai/2024-2025-oly11/bai3.html" }
     ]
   },
   {
