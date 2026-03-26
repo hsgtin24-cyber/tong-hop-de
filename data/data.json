@@ -5,12 +5,12 @@
     "nam": 2025,
     "kythi": "Olympic 10",
     "dokho": "Dễ",
-    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
+    "mota": "Đề thi Olympic Thành phố Hồ Chí Minh dành cho học sinh lớp 10 năm học 2024 – 2025.",
     "file": "de/2024-2025-oly10.pdf",
     "loigiai": [
-      { "ten": "Bài 1", "file": "loigiai/2024-2025-oly10/bai1.html" },
-      { "ten": "Bài 2", "file": "loigiai/2024-2025-oly10/bai2.html" },
-      { "ten": "Bài 3", "file": "loigiai/2024-2025-oly10/bai3.html" }
+      { "ten": "Bài 1. Năng lượng", "file": "loigiai/2024-2025-oly10/bai1.html" },
+      { "ten": "Bài 2. Bội ba", "file": "loigiai/2024-2025-oly10/bai2.html" },
+      { "ten": "Bài 3. Lát gạch", "file": "loigiai/2024-2025-oly10/bai3.html" }
     ]
   },
   {
