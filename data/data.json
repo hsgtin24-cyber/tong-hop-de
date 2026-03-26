@@ -1,5 +1,19 @@
 [
   {
+    "id": "2025-2026-ts10",
+    "ten": "Đề tuyển sinh 10 Tp.HCM 2025-2026",
+    "nam": 2026,
+    "kythi": "Tuyển sinh 10",
+    "dokho": "Dễ",
+    "mota": "Đề thi tuyển sinh vào lớp 10 Thành phố Hồ Chí Minh năm học 2025 – 2026.",
+    "file": "de/2025-2026-ts10.pdf",
+    "loigiai": [
+      { "ten": "Bài 1. Kệ tài liệu", "file": "loigiai/2025-2026-ts10/bai1.html" },
+      { "ten": "Bài 2. Cặp số may mắn", "file": "loigiai/2025-2026-ts10/bai2.html" },
+      { "ten": "Bài 3. Máy chủ", "file": "loigiai/2025-2026-ts10/bai3.html" }
+    ]
+  },
+  {
     "id": "2024-2025-oly10",
     "ten": "Đề Olympic 10 Tp.HCM 2024-2025",
     "nam": 2025,
@@ -26,71 +40,5 @@
       { "ten": "Bài 2. Học toán", "file": "loigiai/2024-2025-oly11/bai2.html" },
       { "ten": "Bài 3. Robot", "file": "loigiai/2024-2025-oly11/bai3.html" }
     ]
-  },
-  {
-    "id": "bai1-olympic10",
-    "ten": "Đếm học sinh xuất sắc",
-    "nam": 2025,
-    "kythi": "Olympic 10, 11",
-    "dokho": "Dễ",
-    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
-    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
-    "loigiai": [
-      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
-      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
-      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
-    ]
-  },
-  {
-    "id": "bai1-olympic10",
-    "ten": "Đếm học sinh xuất sắc",
-    "nam": 2025,
-    "kythi": "Olympic 10, 11",
-    "dokho": "Dễ",
-    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
-    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
-    "loigiai": [
-      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
-      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
-      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
-    ]
-  },
-  {
-    "id": "bai1-olympic10",
-    "ten": "Đếm học sinh xuất sắc",
-    "nam": 2025,
-    "kythi": "Olympic 10, 11",
-    "dokho": "Dễ",
-    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
-    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
-    "loigiai": [
-      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
-      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
-      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
-    ]
-  },
-  {
-    "id": "bai1-olympic10",
-    "ten": "Đếm học sinh xuất sắc",
-    "nam": 2025,
-    "kythi": "Olympic 10, 11",
-    "dokho": "Dễ",
-    "mota": "Viết chương trình Python đếm số lượng học sinh có điểm trung bình >= 8.0.",
-    "file": "de/2024-2025 OLYMPIC 10 HCM.pdf",
-    "loigiai": [
-      { "ten": "Bài 1", "file": "loigiai/bai1.html" },
-      { "ten": "Bài 2", "file": "loigiai/bai2.html" },
-      { "ten": "Bài 3", "file": "loigiai/bai3.html" }
-    ]
-  },
-  {
-    "id": "bai3-hsg12",
-    "ten": "Mạng lưới giao thông",
-    "nam": 2024,
-    "kythi": "Học sinh giỏi 12",
-    "dokho": "Khó",
-    "mota": "Ứng dụng thuật toán Dijkstra để tìm đường đi ngắn nhất.",
-    "file": "de/bai3.pdf",
-    "loigiai": "loigiai/bai3.html"
   }
 ]
